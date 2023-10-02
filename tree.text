@@ -1,0 +1,251 @@
+org.clojure/clojure 1.12.0-alpha4
+  . org.clojure/spec.alpha 0.3.218
+  . org.clojure/core.specs.alpha 0.2.62
+org.clojure/tools.logging 1.2.4
+com.hyperfiddle/electric v2-alpha-428-g22937f75
+  X org.clojure/tools.logging 1.2.4 :use-top
+  X org.clojure/tools.analyzer.jvm 1.2.2 :superseded
+    . org.clojure/tools.analyzer 1.1.0
+    . org.clojure/core.memoize 1.0.253
+      . org.clojure/core.cache 1.0.225
+        X org.clojure/data.priority-map 1.1.0 :parent-omitted
+    . org.ow2.asm/asm 9.2
+    . org.clojure/tools.reader 1.3.6
+  . com.cognitect/transit-cljs 0.8.269
+    . com.cognitect/transit-js 0.8.874
+  X org.clojure/clojurescript 1.11.60 :use-top
+  . com.cognitect/transit-clj 1.0.329
+    . com.cognitect/transit-java 1.0.362
+  X com.hyperfiddle/rcf 20220926-202227 :use-top
+  . missionary/missionary b.31
+    . cloroutine/cloroutine 11
+      . org.clojure/tools.analyzer.jvm 1.2.3 :newer-version
+        . org.clojure/tools.analyzer 1.1.1
+        . org.clojure/core.memoize 1.0.253
+          . org.clojure/core.cache 1.0.225
+            . org.clojure/data.priority-map 1.1.0
+        X org.ow2.asm/asm 9.2 :older-version
+        . org.clojure/tools.reader 1.3.6
+      X org.clojure/clojurescript 1.11.60 :use-top
+    X org.clojure/clojurescript 1.11.60 :use-top
+    . org.reactivestreams/reactive-streams 1.0.4
+ring-basic-authentication/ring-basic-authentication 1.1.1
+org.clojure/clojurescript 1.11.60
+  . com.google.javascript/closure-compiler-unshaded v20220502
+  . org.clojure/google-closure-library 0.0-20211011-0726fdeb
+    . org.clojure/google-closure-library-third-party 0.0-20211011-0726fdeb
+  . org.clojure/tools.reader 1.3.6
+  . com.cognitect/transit-java 1.0.362
+    . com.fasterxml.jackson.core/jackson-core 2.8.7
+    . org.msgpack/msgpack 0.6.12
+      . com.googlecode.json-simple/json-simple 1.1.1
+      . org.javassist/javassist 3.18.1-GA
+    . javax.xml.bind/jaxb-api 2.3.0
+org.postgresql/postgresql 42.6.0
+  X org.checkerframework/checker-qual 3.31.0 :superseded
+com.google.guava/guava 32.1.2-jre
+  . com.google.guava/failureaccess 1.0.1
+  . com.google.guava/listenablefuture 9999.0-empty-to-avoid-conflict-with-guava
+  . com.google.code.findbugs/jsr305 3.0.2
+  . org.checkerframework/checker-qual 3.33.0 :newer-version
+  . com.google.errorprone/error_prone_annotations 2.18.0
+  . com.google.j2objc/j2objc-annotations 2.8
+com.google.cloud/google-cloud-secretmanager 2.14.0
+  . io.grpc/grpc-api 1.54.0
+  . io.grpc/grpc-context 1.54.0
+  . com.google.code.findbugs/jsr305 3.0.2
+  . com.google.errorprone/error_prone_annotations 2.18.0
+  . io.grpc/grpc-stub 1.54.0
+  . io.grpc/grpc-protobuf 1.54.0
+  . io.grpc/grpc-protobuf-lite 1.54.0
+  . com.google.api/api-common 2.7.0
+  . com.google.auto.value/auto-value-annotations 1.10.1
+  . com.google.auto.value/auto-value 1.10.1
+  . javax.annotation/javax.annotation-api 1.3.2
+  . com.google.protobuf/protobuf-java 3.21.12
+  . com.google.api.grpc/proto-google-common-protos 2.15.0
+  . com.google.api.grpc/proto-google-iam-v1 1.10.0
+  . com.google.api.grpc/proto-google-cloud-secretmanager-v1 2.14.0
+    . com.google.guava/failureaccess 1.0.1
+    . com.google.guava/listenablefuture 9999.0-empty-to-avoid-conflict-with-guava
+    . com.google.code.findbugs/jsr305 3.0.2
+    X org.checkerframework/checker-qual 3.32.0 :older-version
+    . com.google.errorprone/error_prone_annotations 2.18.0
+    X com.google.j2objc/j2objc-annotations 1.3 :older-version
+    . com.google.auto.value/auto-value-annotations 1.10.1
+    . com.google.auto.value/auto-value 1.10.1
+    . javax.annotation/javax.annotation-api 1.3.2
+  . com.google.api.grpc/proto-google-cloud-secretmanager-v1beta1 2.14.0
+    . com.google.guava/failureaccess 1.0.1
+    . com.google.guava/listenablefuture 9999.0-empty-to-avoid-conflict-with-guava
+    . com.google.code.findbugs/jsr305 3.0.2
+    X org.checkerframework/checker-qual 3.32.0 :older-version
+    . com.google.errorprone/error_prone_annotations 2.18.0
+    X com.google.j2objc/j2objc-annotations 1.3 :older-version
+    . com.google.auto.value/auto-value-annotations 1.10.1
+    . com.google.auto.value/auto-value 1.10.1
+    . javax.annotation/javax.annotation-api 1.3.2
+  X com.google.guava/guava 31.1-jre :use-top
+  . com.google.guava/failureaccess 1.0.1
+  . com.google.guava/listenablefuture 9999.0-empty-to-avoid-conflict-with-guava
+  X org.checkerframework/checker-qual 3.32.0 :older-version
+  X com.google.j2objc/j2objc-annotations 1.3 :older-version
+  . com.google.api/gax 2.24.0
+  . com.google.auth/google-auth-library-credentials 1.16.0
+  . io.opencensus/opencensus-api 0.31.1
+  . com.google.auth/google-auth-library-oauth2-http 1.16.0
+  . com.google.api/gax-grpc 2.24.0
+  . io.grpc/grpc-alts 1.54.0
+  . io.grpc/grpc-grpclb 1.54.0
+  . org.conscrypt/conscrypt-openjdk-uber 2.5.2
+  . io.grpc/grpc-auth 1.54.0
+  . io.grpc/grpc-netty-shaded 1.54.0
+  . io.perfmark/perfmark-api 0.26.0
+  . io.grpc/grpc-core 1.54.0
+  . com.google.android/annotations 4.1.1.4
+  . org.codehaus.mojo/animal-sniffer-annotations 1.23
+  . io.grpc/grpc-googleapis 1.54.0
+  . io.grpc/grpc-xds 1.54.0
+  . io.opencensus/opencensus-proto 0.2.0
+  . io.grpc/grpc-services 1.54.0
+  . com.google.re2j/re2j 1.6
+  . com.google.api/gax-httpjson 0.109.0
+  . com.google.code.gson/gson 2.10.1
+  . com.google.http-client/google-http-client 1.43.1
+  . org.apache.httpcomponents/httpclient 4.5.14
+  . commons-logging/commons-logging 1.2
+  . commons-codec/commons-codec 1.15
+  . org.apache.httpcomponents/httpcore 4.4.16
+  . io.opencensus/opencensus-contrib-http-util 0.31.1
+  . com.google.http-client/google-http-client-gson 1.43.1
+  . com.google.protobuf/protobuf-java-util 3.21.12
+  . org.threeten/threetenbp 1.6.7
+com.github.seancorfield/next.jdbc 1.3.874
+  . org.clojure/java.data 1.0.95
+    X org.clojure/tools.logging 1.2.1 :use-top
+  . camel-snake-kebab/camel-snake-kebab 0.4.3
+com.hyperfiddle/rcf 20220926-202227
+com.google.cloud.sql/postgres-socket-factory 1.12.0
+  . com.google.cloud.sql/jdbc-socket-factory-core 1.12.0
+    . dev.failsafe/failsafe 3.3.1
+    . com.github.jnr/jnr-unixsocket 0.38.19
+      . com.github.jnr/jnr-ffi 2.2.13
+        . com.github.jnr/jffi 1.3.10
+        . com.github.jnr/jffi$native 1.3.10
+        X org.ow2.asm/asm 9.2 :older-version
+        . org.ow2.asm/asm-commons 9.2
+          X org.ow2.asm/asm 9.2 :older-version
+          X org.ow2.asm/asm-tree 9.2 :older-version
+          X org.ow2.asm/asm-analysis 9.2 :older-version
+        X org.ow2.asm/asm-analysis 9.2 :older-version
+        X org.ow2.asm/asm-tree 9.2 :older-version
+        X org.ow2.asm/asm-util 9.2 :excluded
+        . com.github.jnr/jnr-a64asm 1.0.0
+        . com.github.jnr/jnr-x86asm 1.0.2
+      . com.github.jnr/jnr-constants 0.10.4
+      . com.github.jnr/jnr-enxio 0.32.14
+        . com.github.jnr/jnr-constants 0.10.4
+        . com.github.jnr/jnr-ffi 2.2.13
+      . com.github.jnr/jnr-posix 3.1.16
+        . com.github.jnr/jnr-ffi 2.2.13
+        . com.github.jnr/jnr-constants 0.10.4
+    . org.ow2.asm/asm-util 9.5
+      . org.ow2.asm/asm 9.5
+      . org.ow2.asm/asm-tree 9.5
+        . org.ow2.asm/asm 9.5
+      . org.ow2.asm/asm-analysis 9.5
+        . org.ow2.asm/asm-tree 9.5
+    X com.google.http-client/google-http-client 1.43.0 :older-version
+    X com.google.guava/guava 31.1-android :use-top
+    X com.google.errorprone/error_prone_annotations 2.16 :older-version
+    X com.google.http-client/google-http-client-gson 1.43.0 :older-version
+    X com.google.api-client/google-api-client 2.1.1 :superseded
+      . commons-codec/commons-codec 1.15
+      . com.google.oauth-client/google-oauth-client 1.34.1
+      X com.google.http-client/google-http-client-gson 1.42.3 :older-version
+      X com.google.guava/guava 31.1-jre :use-top
+      . com.google.http-client/google-http-client-apache-v2 1.42.3
+        X com.google.http-client/google-http-client 1.42.3 :parent-omitted
+        X org.apache.httpcomponents/httpclient 4.5.13 :parent-omitted
+        X org.apache.httpcomponents/httpcore 4.4.15 :parent-omitted
+      X org.apache.httpcomponents/httpcore 4.4.15 :older-version
+      X org.apache.httpcomponents/httpclient 4.5.13 :older-version
+      X com.google.http-client/google-http-client 1.42.3 :older-version
+    . com.google.apis/google-api-services-sqladmin v1beta4-rev20230403-2.0.0
+      . com.google.api-client/google-api-client 2.2.0 :newer-version
+        . commons-codec/commons-codec 1.15
+        . com.google.oauth-client/google-oauth-client 1.34.1
+        X com.google.http-client/google-http-client-gson 1.42.3 :older-version
+        X com.google.guava/guava 31.1-jre :use-top
+        . com.google.http-client/google-http-client-apache-v2 1.42.3
+          X com.google.http-client/google-http-client 1.42.3 :older-version
+          X org.apache.httpcomponents/httpclient 4.5.13 :older-version
+          X org.apache.httpcomponents/httpcore 4.4.15 :older-version
+        . org.apache.httpcomponents/httpcore 4.4.16
+        . org.apache.httpcomponents/httpclient 4.5.14
+          . org.apache.httpcomponents/httpcore 4.4.16
+          . commons-logging/commons-logging 1.2
+          X commons-codec/commons-codec 1.11 :older-version
+        X com.google.http-client/google-http-client 1.42.3 :older-version
+    X com.google.auth/google-auth-library-credentials 1.13.0 :older-version
+    X com.google.auth/google-auth-library-oauth2-http 1.13.0 :older-version
+    . com.google.oauth-client/google-oauth-client 1.34.1
+      X com.google.http-client/google-http-client 1.42.0 :older-version
+      X com.google.http-client/google-http-client-gson 1.42.0 :older-version
+      X com.google.guava/guava 31.1-android :use-top
+    . com.google.api/gax 2.24.0
+  X com.google.guava/guava 31.1-android :use-top
+datascript/datascript 1.5.2
+  . persistent-sorted-set/persistent-sorted-set 0.3.0
+info.sunng/ring-jetty9-adapter 0.14.3
+  . ring/ring-servlet 1.8.1
+    . ring/ring-core 1.8.1
+      . ring/ring-codec 1.1.2
+        X commons-codec/commons-codec 1.11 :older-version
+      . commons-io/commons-io 2.6
+      . commons-fileupload/commons-fileupload 1.4
+        X commons-io/commons-io 2.2 :older-version
+      . crypto-random/crypto-random 1.2.0
+        X commons-codec/commons-codec 1.6 :older-version
+      . crypto-equality/crypto-equality 1.0.0
+  . org.eclipse.jetty/jetty-server 9.4.39.v20210325
+    . javax.servlet/javax.servlet-api 3.1.0
+    . org.eclipse.jetty/jetty-http 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-util 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-io 9.4.39.v20210325
+    . org.eclipse.jetty/jetty-io 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-util 9.4.39.v20210325
+  . org.eclipse.jetty.websocket/websocket-server 9.4.39.v20210325
+    . org.eclipse.jetty.websocket/websocket-common 9.4.39.v20210325
+      . org.eclipse.jetty.websocket/websocket-api 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-util 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-io 9.4.39.v20210325
+    . org.eclipse.jetty.websocket/websocket-client 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-client 9.4.39.v20210325
+        . org.eclipse.jetty/jetty-http 9.4.39.v20210325
+        . org.eclipse.jetty/jetty-io 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-util 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-io 9.4.39.v20210325
+      . org.eclipse.jetty.websocket/websocket-common 9.4.39.v20210325
+    . org.eclipse.jetty.websocket/websocket-servlet 9.4.39.v20210325
+    . org.eclipse.jetty/jetty-servlet 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-security 9.4.39.v20210325
+        . org.eclipse.jetty/jetty-server 9.4.39.v20210325
+      . org.eclipse.jetty/jetty-util-ajax 9.4.39.v20210325
+        . org.eclipse.jetty/jetty-util 9.4.39.v20210325
+    . org.eclipse.jetty/jetty-http 9.4.39.v20210325
+  . org.eclipse.jetty.websocket/websocket-servlet 9.4.39.v20210325
+    . org.eclipse.jetty.websocket/websocket-api 9.4.39.v20210325
+    . javax.servlet/javax.servlet-api 3.1.0
+  . org.eclipse.jetty.http2/http2-server 9.4.39.v20210325
+    . org.eclipse.jetty.http2/http2-common 9.4.39.v20210325
+      . org.eclipse.jetty.http2/http2-hpack 9.4.39.v20210325
+        . org.eclipse.jetty/jetty-util 9.4.39.v20210325
+        . org.eclipse.jetty/jetty-http 9.4.39.v20210325
+        . org.eclipse.jetty/jetty-io 9.4.39.v20210325
+    . org.eclipse.jetty/jetty-server 9.4.39.v20210325
+  . org.eclipse.jetty/jetty-alpn-server 9.4.39.v20210325
+    . org.eclipse.jetty/jetty-server 9.4.39.v20210325
+ch.qos.logback/logback-classic 1.2.11
+  . ch.qos.logback/logback-core 1.2.11
+  . org.slf4j/slf4j-api 1.7.32

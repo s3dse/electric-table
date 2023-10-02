@@ -1,0 +1,17 @@
+{
+  "name": "electric-starter-app",
+  "version": "1.0.0",
+  "description": "``` $ clj -A:dev -X user/main",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "unocss \"{src,resources}/**/*.{clj,css,js,html,md}\" -c uno.config.js -o resources/public/uno.css",
+    "watch:css": "unocss \"{src,resources}/**/*.{clj,css,js,html,md}\" -c uno.config.js -o resources/public/uno.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.54",
+    "unocss": "^0.55.3"
+  }
+}
