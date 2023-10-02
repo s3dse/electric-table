@@ -1,4 +1,22 @@
-# electric-starter-app
+# electric-table
+
+Table component for [electric clojure](https://github.com/hyperfiddle/electric). WIP!
+
+The component offers 
+* sorting
+* filtering
+* pagination (WIP)
+* slots for child components
+
+# Usage
+
+```clj
+(Table. data fields items-per-page enable-search? classmap slotmap)
+```
+See `app.table_page.cljc`.
+
+
+# Setup
 
 ```
 $ clj -A:dev -X user/main
